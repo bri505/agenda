@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: #ffe6f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Fondo estilo cuaderno */
+  .cuaderno {
+    background: linear-gradient(90deg, #fffafc 50%, #ffeaf4 50%);
+    width: 100%;
+    max-width: 900px;
+    height: 50%;
+    border: 3px solid #ff9fcf;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(255, 105, 180, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  /* Página interior */
+  .pagina {
+    text-align: center;
+    width: 100%;
+  }
+  
+  /* Título principal */
+  .titulo {
+    font-size: 3rem;
+    color: #ff4da6;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px #ffd1e6;
+  }
+  
+  /* Mensaje secundario */
+  .mensaje {
+    font-size: 1.2rem;
+    color: #b30059;
+    margin-bottom: 20px;
+  }
+  
+  /* Botones generales */
+  .botones {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+  }
+  
+  .btn {
+    background: #ffb3d9;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 5px 10px rgba(255, 0, 127, 0.2);
+    transition: transform 0.2s, background 0.3s;
+  }
+  
+  .btn:hover {
+    transform: scale(1.1);
+    background: #ff66b3;
+  }
+  
+  /* Botones específicos */
+  .agregar {
+    background: #ff80c1;
+  }
+  
+  /* Sección de listas */
+  .lista {
+    background: #fff0f5;
+    border: 2px dashed #ff9fcf;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 20px;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .lista h2 {
+    color: #ff4da6;
+    margin-bottom: 10px;
+  }
+  
+  .lista ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .lista li {
+    background: #ffe6f0;
+    margin-bottom: 8px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(255, 0, 127, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .lista li:hover {
+    transform: translateX(5px);
+  }
+  
