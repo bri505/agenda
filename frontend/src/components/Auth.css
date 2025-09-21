@@ -1,0 +1,21 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .formulario input {
+    padding: 12px;
+    border: 2px solid #ffb3d9;
+    border-radius: 15px;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.2s;
+  }
+  
+  .formulario input:focus {
+    border-color: #ff66b3;
+    box-shadow: 0 0 8px rgba(255, 0, 127, 0.3);
+  }
+  

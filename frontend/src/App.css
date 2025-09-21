@@ -112,3 +112,51 @@ body {
     transform: translateX(5px);
   }
   
+  /* Inputs y select estilo "cuaderno" */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  border: 2px solid #ff9fcf;
+  outline: none;
+  font-size: 1rem;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  transition: 0.3s;
+  width: 80%;
+  max-width: 400px;
+  background: #fff0f5;
+  box-shadow: 0 3px 6px rgba(255, 105, 180, 0.2);
+  color: #b30059;
+}
+
+/* Focus: efecto al hacer clic */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+select:focus {
+  border-color: #ff4da6;
+  box-shadow: 0 0 10px rgba(255, 77, 166, 0.5);
+}
+
+/* Placeholder más bonito */
+input::placeholder {
+  color: #ffb3d9;
+  font-style: italic;
+}
+
+/* Select opciones */
+select option {
+  background: #fff0f5;
+  color: #b30059;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+/* Botón agregar dentro de formularios */
+.agregar {
+  margin-top: 10px;
+}
