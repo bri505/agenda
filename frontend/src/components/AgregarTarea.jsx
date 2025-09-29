@@ -45,6 +45,7 @@ export default function AgregarTarea({ materias, actualizarTareas }) {
   
 
   return (
+    
     <div className="agregar-tarea">
       <select value={materiaId} onChange={(e) => setMateriaId(e.target.value)}>
         <option value="">Selecciona materia</option>
@@ -74,6 +75,7 @@ export default function AgregarTarea({ materias, actualizarTareas }) {
       />
 
       <button className="btn agregar" onClick={agregar}>Agregar Tarea</button>
+      <bri></bri>
     </div>
   );
 }
